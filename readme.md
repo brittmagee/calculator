@@ -4,6 +4,6 @@
 
 
 ##### Important Links:
-[**Deployed Site**](https://heuristic-sinoussi-41401e.netlify.com)
+[**Deployed Site**]()
 
-[GitHub Link](https://github.com/brittmagee/alarmclock)
+[GitHub Link](https://github.com/brittmagee/calculator)
