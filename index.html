@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Britt's Calculator</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+</head>
+<body>
+    <h1>Britt's Calculator</h1>
+    <div class="outer">
+        <div class="calButtons">
+            <div class="enter">
+                <input type="text" id ="enter" class="enter" value=> <!--Input section for the calculator-->
+            </div>
+            <div class="number">
+                <button id="7" value="7" onclick="insert(7)">7</button>
+            </div>
+            <div class="number">
+                <button id="8" value="8" onclick="insert(8)">8</button>
+            </div>
+            <div class="number">
+                <button id="9" value="9" onclick="insert(9)">9</button>
+            </div>
+            <div class="number math">
+                <button id="/" value="/" onclick="insert('/')">÷</button>
+            </div>
+            <div class="number">
+                <button id="4" value="4" onclick="insert(4)">4</button>
+            </div>
+            <div class="number">
+                <button id="5" value="5" onclick="insert(5)">5</button>
+            </div>
+            <div class="number">
+                <button id="6" value="6" onclick="insert(6)">6</button>
+            </div>
+            <div class="number math">
+                <button id="*" value="*" onclick="insert('*')">×</button>
+            </div>
+            <div class="number">
+                <button id="1" value="1" onclick="insert(1)">1</button>
+            </div>
+            <div class="number">
+                <button id="2" value="2" onclick="insert(2)">2</button>
+            </div>
+            <div class="number">
+                <button id="3" value="3" onclick="insert(3)">3</button>
+            </div>
+            <div class="number math">
+                <button id="-" value="-" onclick="insert('-')">-</button>
+            </div>
+            <div class="number">
+                <button id="0" value="0" onclick="insert(0)">0</button>
+            </div>
+            <div class="number">
+                <button id="." value="." onclick="insert('.')">.</button>
+            </div>
+            <div class="number">
+                <button id="equals" value="=" onclick="equals()">=</button>
+            </div>
+            <div class="number math">
+                <button id="+" value="+" onclick="insert('+')">+</button>
+            </div>
+            <div class="number average">
+                <button id="average" class="average" value="average"  onclick="average()">Average</button>
+            </div>
+            <div class="number reset">
+                <button id="average" class="reset" value="reset"  onclick="reset()">Reset</button>
+            </div>
+            <div class="number math modulo">
+                <button id="%" value="%" onclick="insert('%')">%</button>
+            </div>
+        </div>
+    </div>
+    <script src="/JavaScript/app.js"></script>
+</body>
+</html>
